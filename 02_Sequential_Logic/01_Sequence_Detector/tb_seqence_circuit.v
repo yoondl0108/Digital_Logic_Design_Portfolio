@@ -1,0 +1,13 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer:      Sungyoon Jung
+// Create Date:   2024
+// Module Name:   tb_8_to_1_mux.v
+// Target Module: 8_to_1_mux.v
+//
+// Description:   
+//    Testbench for verifying 8 x 1 mux.
+//
+// Test Strategy:
+//   Apply random input to verify 8 x 1 mux.
+//////////////////////////////////////////////////////////////////////////////////
