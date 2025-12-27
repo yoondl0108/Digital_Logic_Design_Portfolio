@@ -37,4 +37,4 @@ module mux(s, d, y);
               y = 4’b0000;
       endcase
   end
-  endmodule
+endmodule
