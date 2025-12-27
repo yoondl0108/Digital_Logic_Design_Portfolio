@@ -29,4 +29,3 @@ module tb_four_bit_adder();
     $finish;
   end
 endmodule
-
