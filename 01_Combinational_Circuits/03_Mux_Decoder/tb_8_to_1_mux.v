@@ -34,4 +34,4 @@ module tb_mux();
       $finish;
     
   end
-  endmodule
+endmodule
