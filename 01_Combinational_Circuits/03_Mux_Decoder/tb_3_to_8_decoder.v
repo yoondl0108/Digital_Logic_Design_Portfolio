@@ -30,4 +30,4 @@ module tb_decoder();
       s = 3'b111; #15
       $finish;
   end    
-  endmodule
+endmodule
