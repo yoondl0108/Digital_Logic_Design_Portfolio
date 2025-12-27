@@ -35,4 +35,4 @@ module decoder(s, d);
               d = 8'b00000000;
       endcase
   end
-  endmodule
+endmodule
