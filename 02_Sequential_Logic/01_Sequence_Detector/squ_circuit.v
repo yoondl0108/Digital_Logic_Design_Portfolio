@@ -8,6 +8,7 @@
 // Description: 
 //    Make sequential circuit
 //////////////////////////////////////////////////////////////////////////////////
+
 module squ_circuit(clk, reset, d_in, d_out);
 
   input clk, reset;
