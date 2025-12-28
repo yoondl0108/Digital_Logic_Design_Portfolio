@@ -9,7 +9,7 @@
 //    Testbench for verifying squential circuits.
 //
 // Test Strategy:
-//   Apply random input to verify squential circuits.
+//    Apply random input to verify squential circuits.
 //////////////////////////////////////////////////////////////////////////////////
 
 module tb_squ_circuit();
