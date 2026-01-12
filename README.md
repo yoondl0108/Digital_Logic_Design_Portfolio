@@ -12,8 +12,11 @@ The projects are structured progressively, ranging from fundamental Combinationa
 | Chapter |       Topic       |                  Description               |     Key Modules               |
 
 | **01**  | **Combinational** | Basic logic gates and arithmetic circuits  | Adder, Mux, Decoder           |
+
 | **02**  |   **Sequential**  | Clock-synchronized sequential circuits     | Counter, Shift Register       |
+
 | **03**  |      **FSM**      | Finite State Machine design & applications | Digital Lock, Vending Machine |
+
 | **04**  |     **Memory**    | SRAM design and system integration         | SRAM, Memory Controller       |
 
 ---------------------------------------------------------------------------------------------------------
