@@ -16,8 +16,6 @@ The projects are structured progressively, ranging from fundamental Combinationa
 | **03**  |      **FSM**      | Finite State Machine design & applications | Digital Lock, Vending Machine |
 | **04**  |     **Memory**    | SRAM design and system integration         | SRAM, Memory Controller       |
 
-------
-
 ### ⚠️ Academic Integrity Warning
 This repository contains solutions for **Digital Logic Design** assignments.
 These codes are intended for **educational reference and portfolio purposes only**.
