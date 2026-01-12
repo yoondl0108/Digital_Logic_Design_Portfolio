@@ -1,3 +1,14 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer:    Sungyoon Jung
+// Create Date: 2024
+// Module Name: Next_State_Logic.v
+// Project:     Digital Logic Design Portfolio
+//
+// Description: 
+//    Make sequential circuit
+//////////////////////////////////////////////////////////////////////////////////
+
 module memory_logic(clk, we, adrs, d_in, mem);
 
   parameter
