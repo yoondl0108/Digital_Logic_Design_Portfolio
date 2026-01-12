@@ -1,6 +1,6 @@
 ### 📂 Digital Logic Design Portfolio
 
-This repository features a comprehensive collection of **Digital Logic Design** projects implemented using **Verilog HDL** and **Xilinx Vivado**.
+This repository features a comprehensive collection of **Digital Logic Design** projects implemented using **Verilog HDL** and **Xilinx Vivado**.   
 The projects are structured progressively, ranging from fundamental Combinational Logic to advanced Sequential Logic, Finite State Machines (FSM), and Memory System Integration.
 
 ### 🛠 Tools & Environment
