@@ -22,7 +22,7 @@ These codes are intended for **educational reference and portfolio purposes only
 
 If you are a student currently taking this course:
 - Please **do not copy/paste** these codes directly into your assignments.
-- Plagiarism is a serious violation of academic integrity and university policies.
+- Plagiarism is a serious violation of academic integrity.
 
 -------
 
