@@ -23,7 +23,6 @@ These codes are intended for **educational reference and portfolio purposes only
 If you are a student currently taking this course:
 - Please **do not copy/paste** these codes directly into your assignments.
 - Plagiarism is a serious violation of academic integrity and university policies.
-- Use this only to understand the logic and structure after you have attempted the problems yourself.
 
 -------
 
