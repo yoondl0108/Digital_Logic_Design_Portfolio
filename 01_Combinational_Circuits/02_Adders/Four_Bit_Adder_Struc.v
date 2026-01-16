@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
+// Create Date: 2024. 09. 11
 // Module Name: Four_Bit_Adder_Struc.v
 // Project:     Digital Logic Design Portfolio
 //
