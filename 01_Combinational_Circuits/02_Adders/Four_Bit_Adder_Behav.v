@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: four_bit_adder_behav.v
+// Create Date: 2024. 09. 11
+// Module Name: Four_Bit_Adder_Behav.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make four bit adder with behavioral code.
+//    Make 4-bit adder with behavioral code.
 //////////////////////////////////////////////////////////////////////////////////
 
-module four_bit_adder_behav(x, y, s, c);
+module Four_Bit_Adder_Behav(x, y, s, c);
 
   input [3:0] x;
   input [3:0] y;
