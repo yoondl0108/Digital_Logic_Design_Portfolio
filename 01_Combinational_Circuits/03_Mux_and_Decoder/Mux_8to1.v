@@ -7,7 +7,7 @@
 //
 // Description: 
 //    8-to-1 Multiplexer implementation.
-//    Selects one of eight 1-bit inputs based on a 3-bit select signal.
+//    Selects one of eight outputs based on a 3-bit inputs.
 //////////////////////////////////////////////////////////////////////////////////
 
 module Mux_8to1(s, d, y);
