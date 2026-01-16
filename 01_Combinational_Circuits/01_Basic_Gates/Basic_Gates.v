@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
+// Create Date: 2024. 09. 11
 // Module Name: Basic_Gates.v
 // Project:     Digital Logic Design Portfolio
 //
@@ -9,7 +9,7 @@
 //    Basic AND, OR, and NOT gate.
 //////////////////////////////////////////////////////////////////////////////////
 
-module example(a, b, c, e, f);
+module Basic_Gates(a, b, c, e, f);
 
   input a, b, c;
   output e, f;
