@@ -1,24 +1,24 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
-// Create Date:   2024
-// Module Name:   tb_8_to_1_mux.v
-// Target Module: 8_to_1_mux.v
+// Create Date:   2024. 09. 25
+// Module Name:   tb_Mux_8to1.v
+// Target Module: Mux_8to1.v
 //
 // Description:   
-//    Testbench for verifying 8 x 1 mux.
+//    Testbench for verifying 8-to-1 Multiplexer.
 //
 // Test Strategy:
-//   Apply random input to verify 8 x 1 mux.
+//    Verification using truth table input patterns.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_mux();
+module tb_Mux_8to1();
 
   reg [2:0] s;
   reg [7:0] d;
   wire y;
 
-  mux mux0(s, d, y);
+  Mux_8to1 mux0(s, d, y);
 
   initial begin
       d = 8'b10010101;
