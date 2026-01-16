@@ -2,21 +2,21 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
 // Create Date:   2024
-// Module Name:   tb_example.v
-// Target Module: example.v
+// Module Name:   tb_Basic_Gates.v
+// Target Module: Basic_Gates.v
 //
 // Description:   
-//    Testbench for verifying the basic gates.
+//    Testbench for verifying the functionality of the Basic_Gates module.
 //
 // Test Strategy:
-//   Apply random input to verify basic gates.
+//    Verification using truth table input patterns.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_example();
+module tb_Basic_Gates();
   reg a, b, c;
   wire e, f;
 
-  example example0(a, b, c, e, f);
+  Basic_Gates Basic_Gates0(a, b, c, e, f);
 
   initial begin
     a = 1'b0; b = 1'b0; c = 1'b0;
