@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: four_bit_adder_struc.v
+// Create Date: 2024. 09. 11
+// Module Name: Full_Adder.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make four bit adder with structural code.
+//    Make full adder with structural code.
 //////////////////////////////////////////////////////////////////////////////////
 
-module full_adder(x, y, z, s, c);
+module Full_Adder(x, y, z, s, c);
 
   input x, y, z;
   output s, c;
