@@ -1,23 +1,23 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
-// Create Date:   2024
-// Module Name:   tb_3_to_8_decoder.v
-// Target Module: 3_to_8_decoder.v
+// Create Date:   2024. 09. 25
+// Module Name:   tb_Decoder_3to8.v
+// Target Module: Decoder_3to8.v
 //
 // Description:   
-//    Testbench for verifying the 3 x 8 decoder.
+//    Testbench for verifying 3-to-8 Decoder.
 //
 // Test Strategy:
-//   Apply random input to verify the 3 x 8 decoder.
+//    Verification using truth table input patterns.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_decoder();
+module tb_Decoder_3to8();
 
   reg [2:0] s;
   wire [7:0] d;
 
-  decoder decoder0(s, d);
+  Decoder_3to8 decoder0(s, d);
 
   initial begin
       s = 3'b000; #15
