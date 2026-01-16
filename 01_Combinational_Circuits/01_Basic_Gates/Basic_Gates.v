@@ -2,11 +2,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
 // Create Date: 2024
-// Module Name: example.v
+// Module Name: Basic_Gates.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Basic AND, OR, NOT gate.
+//    Basic AND, OR, and NOT gate.
 //////////////////////////////////////////////////////////////////////////////////
 
 module example(a, b, c, e, f);
