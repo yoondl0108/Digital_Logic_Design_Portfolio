@@ -1,14 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: 8_to_1_mux.v
+// Create Date: 2024. 09. 25
+// Module Name: Decoder_3to8.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make 3 x 8 decoder
+//    3-to-8 Decoder implementation.
+//    Decodes a 3-bit input to activate one of eight outputs.
 //////////////////////////////////////////////////////////////////////////////////
-module decoder(s, d);
+module Decoder_3to8(s, d);
 
   input [2:0] s;
   output reg [7:0] d;
