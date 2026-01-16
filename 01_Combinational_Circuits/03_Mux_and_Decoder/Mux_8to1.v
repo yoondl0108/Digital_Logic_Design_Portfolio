@@ -1,15 +1,16 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: 8_to_1_mux.v
+// Create Date: 2024. 09. 25
+// Module Name: Mux_8to1.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make 8 x 1 mux
+//    8-to-1 Multiplexer implementation.
+//    Sselects one of eight 1-bit inputs based on a 3-bit select signal.
 //////////////////////////////////////////////////////////////////////////////////
 
-module mux(s, d, y);
+module Mux_8to1(s, d, y);
 
   input [2:0] s;
   input [7:0] d;
