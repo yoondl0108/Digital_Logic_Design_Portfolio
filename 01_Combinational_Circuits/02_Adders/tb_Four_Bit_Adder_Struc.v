@@ -1,25 +1,25 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
-// Create Date:   2024
-// Module Name:   tb_four_bit_adder_struc.v
-// Target Module: four_bit_adder_struc.v
+// Create Date:   2024. 09. 11
+// Module Name:   tb_Four_Bit_Adder_Struc.v
+// Target Module: Four_Bit_Adder_Struc.v
 //
 // Description:   
-//    Testbench for verifying the four bit adder.
+//   Testbench for verifying the functionality of the Four_Bit_Adder_Struc module.
 //
 // Test Strategy:
-//   Apply random input to verify the four bit adder.
+//   Apply directed input patterns to verify logic.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_four_bit_adder();
+module tb_Four_Bit_Adder_Struc();
 
   reg [3:0] x;
   reg [3:0] y;
   wire [3:0] s;
   wire c;
 
-  four_bit_adder_struc four_bit_adder0(x, y, s, c);
+  Four_Bit_Adder_Struc four_bit_adder0(x, y, s, c);
 
   initial begin
     x = 4'b1101; y = 4'b0100; #15
