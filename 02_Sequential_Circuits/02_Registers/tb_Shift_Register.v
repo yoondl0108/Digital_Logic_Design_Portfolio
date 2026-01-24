@@ -1,24 +1,24 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
-// Create Date:   2024
-// Module Name:   tb_register.v
-// Target Module: register.v
+// Create Date:   2024. 10. 30
+// Module Name:   tb_Shift_Register.v
+// Target Module: Shift_Register.v
 //
 // Description:   
 //    Testbench for verifying shift register.
 //
 // Test Strategy:
-//    Apply random input to verify shift register.
+//    Apply directed input patterns to verify logic.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_register();
+module tb_Shift_Register();
   reg clk, reset;
   reg [3:0] d_in;
   reg [2:0] sel;
   wire [3:0] d_out;
 
-  register register0(clk, reset, sel, d_in, d_out);
+  Shift_Register register0(clk, reset, sel, d_in, d_out);
 
   always #5 clk = ~clk;
 
