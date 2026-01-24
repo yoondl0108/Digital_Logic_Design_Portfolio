@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: counter.v
+// Create Date: 2024. 10. 23
+// Module Name: BCD_Counter.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make a 4 bit counter.
+//    Binary Coded Decimcal Counter implementation.
 //////////////////////////////////////////////////////////////////////////////////
 
-module counter(clk, reset, cnt_zero, cnt_one);
+module BCD_Counter(clk, reset, cnt_zero, cnt_one);
 
   input clk, reset;
   output reg [3:0] cnt_zero;
