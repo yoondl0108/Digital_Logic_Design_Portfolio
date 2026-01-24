@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
 // Create Date: 2024
-// Module Name: Four_Bit_Registers.v
+// Module Name: Four_Bit_Register.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
