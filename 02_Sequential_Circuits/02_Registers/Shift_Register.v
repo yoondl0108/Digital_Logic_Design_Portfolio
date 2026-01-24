@@ -19,7 +19,7 @@ module register(clk, reset, sel, d_in, d_out);
 
   always @ (posedge clk or negedge reset) begin
     if(!reset) begin
-      d_out <=4'b0000;
+      d_out <= 4'b0000;
       c <= 1'b0;
     end
     else begin
