@@ -2,24 +2,24 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
 // Create Date:   2024
-// Module Name:   tb_counter.v
-// Target Module: counter.v
+// Module Name:   tb_BCD_Counter.v
+// Target Module: BCD_Counter.v
 //
 // Description:   
-//    Testbench for verifying a 4 bit counter.
+//   Testbench for verifying the functionality of the BCD Counter.
 //
 // Test Strategy:
-//    Apply random input to verify a 4 bit counter.
+//    Verification applying the change of clock signal.
 //    Use an Indirect Mapping method to indicate variables.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_counter();
+module tb_BCD_Counter();
 
   reg tb_clk, tb_reset;
   wire [3:0] tb_cnt_zero;
   wire [3:0] tb_cnt_one;
 
-  counter counter0(.cnt_zero(tb_cnt_zero), .cnt_one(tb_cnt_one), .clk(tb_clk), .reset(tb_reset));
+  BCD_Counter counter0(.cnt_zero(tb_cnt_zero), .cnt_one(tb_cnt_one), .clk(tb_clk), .reset(tb_reset));
 
   always #5 tb_clk = ~tb_clk;
 
