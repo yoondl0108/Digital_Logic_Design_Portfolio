@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
-// Create Date: 2024
-// Module Name: squ_circuit.v
+// Create Date: 2024. 10. 30
+// Module Name: Shift_Register.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make sequential circuit
+//    4 bit shift register that works with 3 bit select inputs implementation.
 //////////////////////////////////////////////////////////////////////////////////
 
-module register(clk, reset, sel, d_in, d_out);
+module Shift_Register(clk, reset, sel, d_in, d_out);
 
   input clk, reset;
   input [2:0] sel;
