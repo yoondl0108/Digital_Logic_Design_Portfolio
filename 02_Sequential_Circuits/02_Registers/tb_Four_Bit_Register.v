@@ -1,25 +1,24 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:      Sungyoon Jung
-// Create Date:   2024
-// Module Name:   tb_counter.v
-// Target Module: counter.v
+// Create Date:   2024. 10. 02
+// Module Name:   tb_Four_Bit_Register.v
+// Target Module: Four_Bit_Register.v
 //
 // Description:   
-//    Testbench for verifying a 4 bit counter.
+//    Testbench for verifying a 4 bit register.
 //
 // Test Strategy:
-//    Apply random input to verify a 4 bit counter.
-//    Use an Indirect Mapping method to indicate variables.
+//    Verification using truth table input patterns.
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_register();
+module tb_Four_Bit_Register();
 
   reg clk, reset;
   reg [3:0] d_in;
   wire [3:0] d_out;
 
-  register register0(clk, reset, d_in, d_out);
+  Four_Bit_Register register0(clk, reset, d_in, d_out);
 
   always #5 clk = ~clk;
 
