@@ -2,14 +2,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer:    Sungyoon Jung
 // Create Date: 2024
-// Module Name: counter.v
+// Module Name: Four_Bit_Registers.v
 // Project:     Digital Logic Design Portfolio
 //
 // Description: 
-//    Make a 4 bit counter.
+//    4 bit register implemtation.
 //////////////////////////////////////////////////////////////////////////////////
 
-module register(clk, reset, d_in, d_out);
+module Four_Bit_Register(clk, reset, d_in, d_out);
 
   input clk, reset;
   input [3:0] d_in;
